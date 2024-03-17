@@ -1,35 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayush Gautam - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
+    <title>Ayush Gautam</title>
 </head>
+
 <body>
     <header>
-        <div class="container">
-            <h1>Ayush Gautam</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="Experience.html">Experience</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+      <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="Experience.html">Experience</a>
+          <a href="Education.html">Education</a>
+          <a href="Projects.html">Projects</a>
+          <a href="Skills.html">Skills</a>
+          </div>
         </div>
+        <a href="contact.html">Contact Me</a>
+      </div>
     </header>
-
     <section id="about">
         <div class="container">
-            <h2>About Me</h2>
-            <p>Contact: +91-8690243925 | Ayushgautam.dm251023@greatlakes.edu.in</p>
-            <p>Age: 22 | Gender: Male</p>
-            <p>Ayush is a higly motivated individual with a lot of passion and enthusiasm for whatever he wants to pursue.</p>
-            <!-- More about yourself can be added here -->
+            <div class="responsive">
+                <div class="gallery">
+                  <a target="_blank" href="img_5terre.jpg">
+                    <img src="DM251023 (1).jpg" alt="Ayush Gautam">
+                  </a>
+                  <div class="desc">Professional Photograph</div>
+                </div>
+              </div>
+              
+              <div class="responsive">
+                <div class="gallery">
+                  <a target="_blank" href="Casual_1">
+                    <img src="IMG_8286.JPG" alt="Casual_1">
+                  </a>
+                  <div class="desc">Casual Photograph</div>
+                </div>
+              </div>
+              
+              <div class="responsive">
+                <div class="gallery">
+                  <a target="_blank" href="img_lights.jpg">
+                    <img src="IMG_8599.JPG" alt="Northern Lights">
+                  </a>
+                  <div class="desc">Casual Photograph</div>
+                </div>
+              </div>
+              
+              <div class="responsive">
+                <div class="gallery">
+                  <a target="_blank" href="Image">
+                    <img src="SSS_8570.JPG" alt="Image">
+                  </a>
+                  <div class="desc">Ethnics</div>
+                </div>
+              </div>
+              
+              <div class="clearfix"></div>
         </div>
     </section>
 
@@ -41,4 +77,5 @@
         </div>
     </footer>
 </body>
+
 </html>
